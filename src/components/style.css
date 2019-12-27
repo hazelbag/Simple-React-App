@@ -1,0 +1,95 @@
+/* Import fonts from google fonts */
+@import url("https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe&display=swap");
+
+/* Height of the html & body has been defined */
+body,
+html {
+  height: 100%;
+}
+
+/* Home page styling - entire div section */
+.home_div {
+  background-image: url("./Image/abstract.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Home page title section styling */
+.homeTitle {
+  line-height: 250px;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 48px;
+  font-weight: 650;
+}
+
+/* Titles on the two pages Converter and Win styling */
+.pageTitles {
+  line-height: 150px;
+  text-align: center;
+  color: rgb(252, 252, 252);
+  font-size: 58px;
+  font-weight: 650;
+  font-family: "ZCOOL KuaiLe", cursive;
+}
+
+/* Converter div section styling */
+.conv_div {
+  background-image: url("./Image/currency.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Win page div styling */
+.win_div {
+  background-image: url("./Image/winner.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* legend element styling on the converter page */
+.conv_legend {
+  color: rgb(20, 0, 196);
+  font-weight: 650;
+  font-size: 24px;
+  font-family: "ZCOOL KuaiLe", cursive;
+}
+
+/* Heading styling on the converter page */
+#labelHeading {
+  font-size: 22px;
+  color: rgb(20, 0, 196);
+  font-weight: 650;
+  font-family: "ZCOOL KuaiLe", cursive;
+}
+
+/* Output styling of the converted values on the converter page */
+#randValue,
+#poundValue,
+#euroValue {
+  font-size: 18px;
+  color: rgb(5, 1, 248);
+  font-weight: 600;
+  font-family: "ZCOOL KuaiLe", cursive;
+}
+
+/* Set cards size and display on the win page */
+.cards {
+  height: 250px;
+  width: 200px;
+  padding: 0px 15px 0px 15px;
+  display: inline-block;
+}
+
+/* Info heading on the win page */
+.chooseInfo {
+  font-family: "ZCOOL KuaiLe", cursive;
+  color: azure;
+  font-size: 28px;
+}
